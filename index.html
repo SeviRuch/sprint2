@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>SeviRuch - Sprint2</title>
+</head>
+
+
+<body onload="onInit()">
+    <header>
+        <div class="main-header main-layout">
+            <div class="logo">
+                <img src="./imgs/Logo2.png" alt="logo" />
+            </div>
+            <nav>
+                <ul>
+                    <li>Gallery</li>
+                    <li>About</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="top-bar main-layout">
+        <input>
+        words
+    </div>
+    <div class="editor ">
+        <div class="editor-container main-layout">
+            <div class="canvas-container">
+                <canvas width="300" height="300"></canvas>
+            </div>
+            <div class="tools">
+                <input oninput="onChangeText(this.value)"tasdype="text" />
+                <button onclick="">switch</button>
+                <button onclick="">add</button>
+                <button onclick="">delete</button>
+                <button onclick="">font+</button>
+                <button onclick="">font-</button>
+                <button onclick="">align-left</button>
+                <button onclick="">align-right</button>
+                <button onclick="">center</button>
+                <select onchange="">
+                    <option value="impact">Impact</option>
+                    <option value="arial">Arial</option>
+                </select>
+                <button onclick="">stroke</button>
+                <input type="color" onchange=""></button>
+                <div class="stickers"></div>
+                <button onclick="">Share</button>
+            </div>
+        </div>
+
+    </div>
+    <main class="main-content">
+        <div class="gallery main-layout">
+
+        </div>
+    </main>
+    <section class="about-me main-layout">
+
+    </section>
+    <footer>
+        <div class="logo">
+            <img src="./imgs/Logo2.png" alt="logo" />
+        </div>
+    </footer>
+    <script src="./js/util.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/canvas.js"></script>
+    <script src="./js/meme.js"></script>
+</body>
+
+</html>
